@@ -1,0 +1,123 @@
+.section_dark {
+    background-color: #212B31;
+    padding-top: 143px;
+    padding-bottom: 118px;
+    .dark_container {
+        .dark_item {
+            font-family: 'Inter', sans-serif;
+            &:nth-child(1){
+                margin-bottom: 127px;
+                display: flex;
+                .dark_left {
+                    display: flex;
+                    // justify-content: space-between;
+                    flex-direction: column;
+                    margin-right: 53px;
+                    flex-basis: 50%;
+                    h2 {
+                        font-size: 32px;
+                        line-height: 48px;
+                        color: #FFFFFF;
+                        margin-bottom: 50px;
+                        font-weight: normal;
+                    }
+                    ul {
+                        padding-left: 20px;
+                        color: #FFFFFF;
+                        margin-bottom: 50px;
+                        li {
+                            padding-left: 32px;
+                            &::before {
+                                content: "";
+                                color: #FFFFFF;
+                            }
+                            p {
+                                &:first-child {
+                                    font-size: 18px;
+                                    line-height: 24px;
+                                    color: #FFFFFF;
+                                    margin-bottom: 10px;
+                                }
+                                &:last-child {
+                                    font-size: 16px;
+                                    line-height: 24px;
+                                    color: rgba(255, 255, 255, 0.75);
+                                    margin-bottom: 24px;
+                                }
+                            }
+                        }
+                    }
+                    .dark_link {
+                        a {
+                            margin-right: 16px;
+                            text-decoration: none;
+                            padding: 13px 25px;
+                            border-radius: 4px;
+                            // display: inline-block;
+                            &:first-child {
+                                background: #FFFFFF;
+                                font-size: 17px;
+                                line-height: 24px;
+                                text-align: center;
+                                color: #212B31;
+                                transition: 1s;
+                                &:hover {
+                                    transition: 1s;
+                                    color: #036FC7;
+                                }
+                            }
+                            &:last-child {
+                                font-size: 18px;
+                                line-height: 24px;
+                                text-align: center;
+                                color: #FFFFFF;
+                                background: #212B31;
+                                border: 1px solid #DADEDF;
+                                transition: 1s;
+                                &:hover {
+                                    transition: 1s;
+                                    color: #036FC7;
+                                }
+                            }
+                        }
+                    }
+                }
+                .dark_right {
+                    background-image: url("../img/section-dark/Rectangle.png");
+                    background-repeat: no-repeat;
+                    // position: relative;
+                    background-position: top right;
+                    display: flex;
+                    background-size: contain;
+                    flex-basis: 50%;
+                }
+            }
+            &:nth-child(2){
+                display: flex;
+                justify-content: space-between;
+                .dark_card {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    img {
+                        margin-bottom: 20px;
+                    }
+                    h2 {
+                        font-size: 18px;
+                        line-height: 24px;
+                        text-align: center;
+                        color: #FFFFFF;
+                        font-weight: normal;
+                        margin-bottom: 10px;
+                    }
+                    p {
+                        font-size: 16px;
+                        line-height: 24px;
+                        text-align: center;
+                        color: rgba(255, 255, 255, 0.75);
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,29 @@
+.section_help {
+    .help_container {
+        display: flex;
+        justify-content: space-between;
+        .help_block_text {
+            h2 {
+                font-family: 'Inter', sans-serif;
+                font-size: 32px;
+                line-height: 48px;
+                color: #212B31;
+                margin-bottom: 16px;
+            }
+            p {
+                font-family: 'Inter', sans-serif;
+                font-size: 20px;
+                line-height: 32px;
+                color: #72787D;
+                margin-bottom: 28px;
+            }
+            .help_subtext {
+                font-family: 'Inter', sans-serif;
+                font-size: 20px;
+                line-height: 32px;
+                color: #212B31;
+                border-bottom: 5px solid #FFD042;;
+            }
+        }
+    }
+}

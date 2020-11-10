@@ -1,0 +1,26 @@
+@import "_fonts";
+@import "_section_main";
+@import "_section_pluses";
+@import "_section_chaos";
+@import "_section_control";
+@import "_section_help";
+@import "_section_brands";
+@import "_section_about";
+@import "_section_delivery";
+@import "_section_trust";
+@import "_section_dark";
+@import "_howwork";
+@import "_section_why";
+@import "_section_ready";
+@import "_footer";
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 1050px;
+    margin: auto;
+}

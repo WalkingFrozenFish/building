@@ -1,0 +1,99 @@
+.section_main {
+    .main_header {
+        display: flex;
+        justify-content: space-between;
+        padding: 31px;
+        max-width: 1440px;
+        margin: auto;
+        .navbar {
+            display: flex;
+            align-items: center;
+            list-style: none;
+            .logo {
+                &:hover {
+                    cursor: pointer;
+                }
+                cursor: pointer;
+            }
+            li {
+                font-family: 'Inter', sans-serif;
+                font-size: 16px;
+                line-height: 19px;
+                margin-left: 22px;
+                &:nth-child(8) {
+                    border-radius: 4px;
+                    color: #ffffff;
+                    padding: 9px 20px;
+                    background-color: #212B31;
+                    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.16);
+                }
+                a {
+                    text-decoration: none;
+                    color: #72787D;
+                    transition: 1s;
+                    &:hover {
+                        color: #036FC7;
+                        transition: 1s;
+                    }
+                }
+                .demo {
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+
+    .main_container {
+        margin-top: 74px;
+        .main_hello {
+            .main_title {
+                font-family: 'Inter', sans-serif;
+                font-size: 48px;
+                line-height: 64px;
+                text-align: center;
+                color: #212B31;
+                margin-bottom: 30px;
+            }
+            .main_link {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 88px;
+                a {
+                    padding: 13px 25px;
+                    background-color: #212B31;
+                    border-radius: 4px;
+                    font-family: 'Inter', sans-serif;
+                    font-size: 18px;
+                    text-decoration: none;
+                    line-height: 24px;
+                    transition: 1s;
+                    &:first-child {
+                        box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.16);
+                        color: #fff;
+                    }
+                    &:last-child {
+                        border: 1px solid #DADEDF;
+                        background-color: #ffffff;
+                        margin-left: 16px;
+                        color: #212B31;
+                    }
+                    &:hover {
+                        color: #036FC7;
+                        transition: 1s;
+                    }
+                }
+            }
+        }
+        .images {
+            margin: auto;
+            img {
+                display: flex;
+                margin: auto;
+                &:first-child {
+                    margin-bottom: 36px;
+                }
+            }
+        }
+    }
+}

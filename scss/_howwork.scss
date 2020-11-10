@@ -1,0 +1,95 @@
+.section_howwork {
+    padding-top: 143px;
+    padding-bottom: 96px;
+    font-family: 'Inter', sans-serif;
+    .howwork_container {
+        display: flex;
+        justify-content: space-between;
+        .work_left {
+            margin-right: 74px;
+            h2 {
+                font-size: 32px;
+                line-height: 48px;
+                color: #212B31;
+                margin-bottom: 21px;
+            }
+            p {
+                font-size: 20px;
+                line-height: 32px;
+                color: #72787D;
+                margin-bottom: 60px;
+            }
+            
+        }
+        .work_right {
+
+            .work_block {
+
+                .work_link {
+                    a {
+                        margin-right: 16px;
+                        text-decoration: none;
+                        padding: 13px 25px;
+                        border-radius: 4px;
+                        // display: inline-block;
+                        &:last-child {
+                            background: #FFFFFF;
+                            font-size: 17px;
+                            line-height: 24px;
+                            text-align: center;
+                            color: #212B31;
+                            transition: 1s;
+                            border: 1px solid #DADEDF;
+                            &:hover {
+                                transition: 1s;
+                                color: #036FC7;
+                            }
+                        }
+                        &:first-child {
+                            font-size: 18px;
+                            line-height: 24px;
+                            text-align: center;
+                            color: #FFFFFF;
+                            background: #212B31;
+                            border: 1px solid #DADEDF;
+                            transition: 1s;
+                            &:hover {
+                                transition: 1s;
+                                color: #036FC7;
+                            }
+                        }
+                    } 
+                }
+
+                .work_item {
+                    display: flex;
+                    .num {
+                        margin-right: 32px;
+                        height: 40px;
+                        min-width: 40px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        border: 1px solid #DADEDF;
+                        border-radius: 3px;
+                    }
+                    .txt {
+                        
+                        h2 {
+                            font-size: 17px;
+                            line-height: 24px;
+                            color: #212B31;
+                            margin-bottom: 10px;
+                        }
+                        p {
+                            font-size: 16px;
+                            line-height: 24px;
+                            color: #72787D;
+                            margin-bottom: 30px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

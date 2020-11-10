@@ -1,0 +1,146 @@
+.section_delivery {
+    padding-top: 143px;
+    padding-bottom: 124px;
+    .delivery_container {
+
+        .delivery_item {
+
+            h2 {
+                font-family: 'Inter', sans-serif;
+                font-size: 32px;
+                line-height: 48px;
+                text-align: center;
+                color: #212B31;
+                margin-bottom: 21px;
+            }
+            p {
+                font-family: 'Inter', sans-serif;
+                font-size: 20px;
+                line-height: 32px;
+                text-align: center;
+                color: #72787D;
+                margin-bottom: 43px;
+            }
+
+            .line_1 {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .delivery_card {
+                    margin-right: 27px;
+                    display: flex;
+                    flex-basis: 33%;
+                    &:last-child {
+                        margin-right: 0;
+                    }
+                    .delivery_image {
+                        margin-right: 16px;
+                    }
+                    .delivery_text{
+                        h2 {
+                            font-family: 'Inter', sans-serif;
+                            font-size: 18px;
+                            line-height: 24px;
+                            color: #212B31;
+                            text-align: left;
+                        }
+                        & > p {
+                            font-family: 'Inter', sans-serif;
+                            font-size: 16px;
+                            line-height: 24px;
+                            color: #72787D;
+                            text-align: left;
+                        }
+                    }
+                }
+            }
+
+            .line_2 {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .delivery_card {
+                    margin-right: 27px;
+                    display: flex;
+                    flex-basis: 33%;
+                    &:last-child {
+                        margin-right: 0;
+                    }
+                    .delivery_image {
+                        margin-right: 16px;
+                    }
+                    .delivery_text{
+                        h2 {
+                            font-family: 'Inter', sans-serif;
+                            font-size: 18px;
+                            line-height: 24px;
+                            color: #212B31;
+                            text-align: left;
+                        }
+                        & > p {
+                            font-family: 'Inter', sans-serif;
+                            font-size: 16px;
+                            line-height: 24px;
+                            color: #72787D;
+                            text-align: left;
+                        }
+                    }
+                }
+            }
+
+            .line_3 {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-bottom: 22px;
+                .delivery_card {
+                    margin-right: 27px;
+                    display: flex;
+                    flex-basis: 33%;
+                    &:last-child {
+                        margin-right: 0;
+                    }
+                    .delivery_image {
+                        margin-right: 16px;
+                    }
+                    .delivery_text{
+                        h2 {
+                            font-family: 'Inter', sans-serif;
+                            font-size: 18px;
+                            line-height: 24px;
+                            color: #212B31;
+                            text-align: left;
+                        }
+                        & > p {
+                            font-family: 'Inter', sans-serif;
+                            font-size: 16px;
+                            line-height: 24px;
+                            color: #72787D;
+                            text-align: left;
+                        }
+                    }
+                }
+            }
+
+            &:last-child {
+                justify-content: center;
+                display: flex;
+            }
+
+            .first {
+                font-family: 'Inter', sans-serif;
+                font-size: 20px;
+                line-height: 32px;
+                color: #72787D;
+                display: inline-block;
+                border-bottom: 5px solid #FFD042;;
+            }
+            span {
+                font-family: 'Inter', sans-serif;
+                font-size: 20px;
+                line-height: 32px;
+                color: #72787D;
+            }
+        }
+    }
+}

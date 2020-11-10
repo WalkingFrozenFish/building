@@ -1,0 +1,79 @@
+.section_trust {
+    margin-bottom: 144px;
+    .trust_container {
+
+        .trust_item {
+            font-family: 'Inter', sans-serif;
+            &:nth-child(1) {
+                h2 {
+                    font-size: 32px;
+                    line-height: 48px;
+                    text-align: center;
+                    color: #212B31;
+                    margin-bottom: 17px;
+                }
+                p {
+                    font-size: 20px;
+                    line-height: 32px;
+                    text-align: center;
+                    color: #72787D;
+                    margin-bottom: 48px;
+                }
+            }
+            &:nth-child(2) {
+                display: flex;
+                align-items: start;
+                justify-content: space-between;
+                margin-bottom: 62px;
+                .trust_card {
+                    display: flex;
+                    flex-direction: column;
+                    // align-items: start;
+                    img {
+                        margin: auto;
+                        margin-bottom: 19px;
+                    }
+                    h2 {
+                        font-size: 18px;
+                        line-height: 24px;
+                        text-align: center;
+                        color: #212B31;
+                        margin-bottom: 11px;
+                    }
+                    p {
+                        font-size: 16px;
+                        line-height: 24px;
+                        text-align: center;
+                        color: #72787D;
+                    }
+                }
+            }
+
+            &:nth-child(3) {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: #F6F8F9;
+                border-radius: 5px;
+                padding: 45px 40px;
+                img {
+                    margin-right: 24px;
+                }
+                span {
+                    display: inline-block;
+                    margin-right: 66px;
+                    font-size: 18px;
+                    line-height: 32px;
+                    color: #212B31;
+                }
+                a {
+                    padding: 13px 25px;
+                    background: #FFFFFF;
+                    border: 1px solid #DADEDF;
+                    box-sizing: border-box;
+                    border-radius: 4px;
+                }
+            }
+        }
+    }
+}
